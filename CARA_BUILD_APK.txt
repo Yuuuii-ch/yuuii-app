@@ -1,0 +1,33 @@
+CARA BIKIN FILE .APK DARI PROJECT INI
+======================================
+
+Kamu butuh laptop/PC (Windows/Mac/Linux) + install Android Studio (gratis):
+https://developer.android.com/studio
+
+LANGKAH-LANGKAH:
+
+1. Extract (unzip) folder "YuuiiApp" ini di PC kamu.
+2. Buka Android Studio > pilih "Open" > arahkan ke folder YuuiiApp.
+3. Tunggu Android Studio selesai "Gradle Sync" (proses download otomatis,
+   butuh internet, biasanya 5-15 menit di percobaan pertama).
+4. Setelah sync selesai, di menu atas pilih:
+   Build > Build Bundle(s) / APK(s) > Build APK(s)
+5. Tunggu sampai muncul notifikasi "APK(s) generated successfully".
+   Klik "locate" di notifikasi itu, atau cari manual di:
+   app/build/outputs/apk/debug/app-debug.apk
+6. Kirim file app-debug.apk itu ke HP kamu (lewat kabel USB, WhatsApp ke
+   diri sendiri, Google Drive, dll).
+7. Di HP: buka file app-debug.apk itu lewat File Manager, kalau muncul
+   peringatan "Install dari sumber tidak dikenal", izinkan saja
+   (khusus utk aplikasi ini, sekali saja).
+8. Install seperti biasa. Selesai — muncul icon "YuuiiNoApikey" di HP kamu,
+   jalan seperti aplikasi asli.
+
+CATATAN:
+- APK ini masih "debug build" — cukup buat dipakai sendiri, tidak untuk
+  diupload ke Google Play (butuh proses signing tambahan kalau mau itu).
+- Aplikasi ini tetap butuh koneksi internet tiap dibuka, karena masih
+  memuat script dari js.puter.com dkk (sama seperti versi HTML-nya).
+- Kalau nggak punya PC/laptop, alternatif: pakai Android Studio versi
+  cloud (ada beberapa layanan gratis/berbayar), tapi cara paling gampang
+  tetap pinjam PC teman/warnet yang ada Android Studio-nya.
