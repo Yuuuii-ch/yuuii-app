@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
         webView.setWebChromeClient(new MainChromeClient());
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("https://yuuii-yvlr7a.puter.site");
+        webView.loadUrl("https://yuuii-83vojb.puter.site");
     }
 
     private void configureWebView(WebView wv) {
